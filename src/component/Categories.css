@@ -1,0 +1,66 @@
+.title{
+    font-family:'Courier New', Courier, monospace ;
+font-size:3.4rem;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.main-2 {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    background-color: rgb(247, 248, 248);
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.symbol {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(239, 174, 113);
+}
+
+.catg {
+    display: grid;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.edit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+.detbtn,
+.editbtn {
+    outline: none;
+    border: none;
+    padding: 7px;
+    width: 87px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.detbtn:hover {
+    background-color: rgb(245, 156, 140);
+}
+
+.editbtn:hover {
+    background-color: rgb(153, 202, 253);
+}
+
+.plusSquare {
+    border: none;
+    background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+}
