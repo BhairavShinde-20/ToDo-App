@@ -1,0 +1,84 @@
+
+
+.dates {
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.names {
+    /* display: grid; */
+    /* align-items: center; */
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.task {
+    margin-bottom: 0;
+}
+
+.dates p {
+    margin-bottom: 0px;
+
+}
+
+.date-box {
+    /* background-color: brown; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px black;
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    width: 100px;
+    margin-left: 10px;
+
+}
+
+.ThreeDotsVertical {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: rgb(179, 178, 178);
+}
+
+.threeDot {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.fil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+@media(max-width:728){
+    .task{
+        font-size: 1rem;
+
+    }
+    .date-box{
+        width: 65px;
+    }
+    .names h5{
+    font-size: 1.2rem;
+    }
+
+}
+@media(max-width:717px){
+    .task{
+        font-size: 1rem;
+
+    }
+    .date-box{
+        width: 65px;
+    }
+    .names h5{
+    font-size: 1.2rem;
+    }
+    .main-2{
+        width: 98%;
+    }
+
+}
